@@ -39,4 +39,8 @@ public class TimeRangedDocument {
         this.beginning = beginning;
         this.end = end;
     }
+
+    public int index(){
+        return 0;
+    }
 }

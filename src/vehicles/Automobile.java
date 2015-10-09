@@ -75,4 +75,8 @@ public class Automobile {
             this.insurance = insurance;
         }
     }
+
+    public int index(){
+        return 1;
+    }
 }
