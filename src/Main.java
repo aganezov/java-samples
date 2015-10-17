@@ -22,6 +22,12 @@ public class Main {
                And by using basic completion        Cmd + Space
             */
             BufferedReader reader = new BufferedReader(new FileReader("GenerateSamples/Dummy.java"));
+
+            /* JSON string is created by injecting JSON language reference into string
+                        Alt + Enter --> Inject language or reference --> JSON
+                        Alt + Enter --> Edit JSON fragment
+            */
+            String json = "{\"name\": \"John\", \"age\": 23}";
         }
     }
 }
