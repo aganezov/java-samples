@@ -13,7 +13,9 @@ public class BaseClass extends SuperClass{
     public void greet(String greeting){
         /* Variable extracted by Ctrl + T -> Extract Variable */
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("My name".toLowerCase());
+        /* Variable extracted by Ctrl + T -> Extract Variable */
+        String stringValue = "My name";
+        stringBuilder.append(stringValue.toLowerCase());
         System.out.println(greeting);
     }
 
