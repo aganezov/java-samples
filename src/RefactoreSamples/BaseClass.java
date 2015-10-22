@@ -8,7 +8,7 @@ package RefactoreSamples;
 /* Super Class has been changed via    Ctrl + T -> Extract Superclass  */
 public class BaseClass extends ExtractedSuperClass {
     private int field2;
-    AnotherClass anotherClass;
+    /* Member was pulled to super class by    Ctrl + T -> Pull Members Up  */
 
     /* Parameter extracted by Ctrl + T -> Extract Parameter */
     public void greet(String greeting){
