@@ -2,7 +2,8 @@ package RefactoreSamples;
 
 import java.awt.*;
 
-/* Builder pattern implementation for Rectangle class created by invoking (in Rectangle Class)
+/* Comment is changed (Rectangle -> newlyNamedRectangle) by    Ctrl + T -> Rename (in Rectangle class)  */
+/* Builder pattern implementation for newlyNamedRectangle class created by invoking (in newlyNamedRectangle Class)
 *               Ctrl + T -> Replace with Builder
 * */
 public class RectangleBuilder {
@@ -43,7 +44,8 @@ public class RectangleBuilder {
         return this;
     }
 
-    public Rectangle createRectangle() {
-        return new Rectangle(x, y, width, height, fillColor, borderColor);
+    /* Method signature and code is changed (Rectangle -> newlyNamedRectangle) by    Ctrl + T -> Rename (in Rectangle class)  */
+    public newlyNamedRectangle createRectangle() {
+        return new newlyNamedRectangle(x, y, width, height, fillColor, borderColor);
     }
 }

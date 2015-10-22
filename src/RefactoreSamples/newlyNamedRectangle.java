@@ -6,12 +6,14 @@ import java.awt.*;
  * Created by aganezov on 10/22/15.
  * JetBrains GWU
  */
-public class Rectangle {
+/* Class naming is changed (Rectangle -> newlyNamedRectangle) by    Ctrl + T -> Rename  */
+public class newlyNamedRectangle {
     private int x, y;
     private int width, height;
     private Color fillColor, borderColor;
 
-    public Rectangle(int x, int y, int width, int height, Color fillColor, Color borderColor) {
+    /* Constructor naming (Rectangle -> newlyNamedRectangle) by    Ctrl + T -> Rename  */
+    public newlyNamedRectangle(int x, int y, int width, int height, Color fillColor, Color borderColor) {
         this.x = x;
         this.y = y;
         this.width = width;
