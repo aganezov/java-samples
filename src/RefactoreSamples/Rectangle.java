@@ -20,5 +20,11 @@ public class Rectangle {
         this.borderColor = borderColor;
     }
 
+    /* method made static and moved by    Ctrl + T -> Move (in Dummy class)*/
+    public static void createAndShowRectangle(){
+        /* Constructor Call replaced with Builder patter by     Ctrl + T -> Replace Constructor with Builder   */
+        new RectangleBuilder().setX(1).setY(2).setWidth(3).setHeight(4).setFillColor(Color.green).setBorderColor(Color.blue).createRectangle().show();
+    }
+
     public void show() {}
 }
