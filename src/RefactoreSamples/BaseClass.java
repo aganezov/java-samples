@@ -6,7 +6,11 @@ package RefactoreSamples;
  */
 
 /* Super Class has been changed via    Ctrl + T -> Extract Superclass  */
-public class BaseClass extends ExtractedSuperClass {
+/* Extracted Super Class has been inlined back to BaseClass by    Ctrl + T -> Inline Superclass */
+public class BaseClass extends SuperClass {
+    protected int field1;
+    /* Member was pulled from descendant class by    Ctrl + T -> Pull Members Up  */
+    AnotherClass anotherClass;
     private int field2;
     /* Member was pulled to super class by    Ctrl + T -> Pull Members Up  */
 
