@@ -20,9 +20,13 @@ public class Dummy {
         new RectangleBuilder().setX(1).setY(2).setWidth(3).setHeight(4).setFillColor(Color.green).setBorderColor(Color.blue).createRectangle().show();
     }
 
-    public void converter(){
+    /* signature change by propagating parameter in signature change of BaseClass.parseInt by
+    *                   Ctrl + T -> Change Signature
+    * */
+    public void converter(int base){
         BaseClass baseClass = new BaseClass();
         /* Call expression changed by    Ctrl + T -> Make static (in BaseClass.parseInt method)    */
-        int intValue = BaseClass.parseInt("5");
+        /* Signature of method is changed by     Ctrl + T -> Change signature (in BaseClass.parseInt method)     */
+        int intValue = BaseClass.parseInt("5", base);
     }
 }
