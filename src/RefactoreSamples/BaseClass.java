@@ -72,7 +72,8 @@ public class BaseClass extends SuperClass {
         }
     }
 
-    public int parseInt(String string){
+    /* Method changed to static by     Ctrl + T -> Make Static*/
+    public static int parseInt(String string){
         return Integer.parseInt(string);
     }
 }

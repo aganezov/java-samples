@@ -1,7 +1,5 @@
 package RefactoreSamples;
 
-import com.sun.xml.internal.rngom.parse.host.Base;
-
 import java.awt.*;
 
 /**
@@ -24,6 +22,7 @@ public class Dummy {
 
     public void converter(){
         BaseClass baseClass = new BaseClass();
-        int intValue = baseClass.parseInt("5");
+        /* Call expression changed by    Ctrl + T -> Make static (in BaseClass.parseInt method)    */
+        int intValue = BaseClass.parseInt("5");
     }
 }
