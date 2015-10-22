@@ -5,4 +5,6 @@ package RefactoreSamples;
  * JetBrains GWU
  */
 public class BaseClass extends SuperClass{
+    public int field1;
+    public int field2;
 }
