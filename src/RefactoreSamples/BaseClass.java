@@ -13,7 +13,7 @@ public class BaseClass extends SuperClass{
     public void greet(String greeting){
         /* Variable extracted by Ctrl + T -> Extract Variable */
         StringBuilder stringBuilder = new StringBuilder();
-
+        stringBuilder.append("My name".toLowerCase());
         System.out.println(greeting);
     }
 
