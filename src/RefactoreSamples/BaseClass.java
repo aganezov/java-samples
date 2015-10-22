@@ -4,8 +4,9 @@ package RefactoreSamples;
  * Created by aganezov on 10/21/15.
  * JetBrains GWU
  */
-public class BaseClass extends SuperClass{
-    private int field1;
+
+/* Super Class has been changed via    Ctrl + T -> Extract Superclass  */
+public class BaseClass extends ExtractedSuperClass {
     private int field2;
     AnotherClass anotherClass;
 
