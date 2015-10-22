@@ -16,6 +16,7 @@ public class Dummy {
     }
 
     public void createAndShowRectangle(){
-        new Rectangle(1, 2, 3, 4, Color.green, Color.blue).show();
+        /* Constructor Call replaced with Builder patter by     Ctrl + T -> Replace Constructor with Builder   */
+        new RectangleBuilder().setX(1).setY(2).setWidth(3).setHeight(4).setFillColor(Color.green).setBorderColor(Color.blue).createRectangle().show();
     }
 }
