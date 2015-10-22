@@ -11,6 +11,8 @@ public class BaseClass extends SuperClass{
 
     /* Parameter extracted by Ctrl + T -> Extract Parameter */
     public void greet(String greeting){
+        new StringBuilder();
+
         System.out.println(greeting);
     }
 
