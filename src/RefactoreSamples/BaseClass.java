@@ -71,4 +71,8 @@ public class BaseClass extends SuperClass {
             return value;
         }
     }
+
+    public int parseInt(String string){
+        return Integer.parseInt(string);
+    }
 }
