@@ -7,6 +7,7 @@ package RefactoreSamples;
 public class Dummy {
     public static int getIntFromBaseClass(){
         BaseClass baseClass = new BaseClass();
-        return baseClass.field1;
+        /* Changed by Field Encapsulation refactoring in BaseClass */
+        return baseClass.getField1();
     }
 }
