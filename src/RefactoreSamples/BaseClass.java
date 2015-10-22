@@ -7,7 +7,11 @@ package RefactoreSamples;
 public class BaseClass extends SuperClass{
     private int field1;
     private int field2;
+    AnotherClass anotherClass;
 
+    public void printRandomIntValue(){
+        System.out.println(anotherClass.randomIntValue());
+    }
     /* Generate by Ctrl + T -> Encapsulate Fields */
     public int getField1() {
         return field1;
