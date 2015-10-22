@@ -16,7 +16,8 @@ public class BaseClass extends ExtractedSuperClass {
 
     public BaseClass(){
         // Default Constructor
-        this(10);
+        /* Call for BaseClass constructor with 1 argument was inlined by    Ctrl + T -> Inline Constructor  */
+        this.setField1(10);
     }
 
     public BaseClass(int field1Value){
