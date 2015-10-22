@@ -7,7 +7,8 @@ package RefactoreSamples;
 
 /* Super Class has been changed via    Ctrl + T -> Extract Superclass  */
 /* Extracted Super Class has been inlined back to BaseClass by    Ctrl + T -> Inline Superclass */
-public class BaseClass extends SuperClass {
+/* Class signature has been changed (generified) by     Ctrl + T -> Change Signature */
+public class BaseClass<Generic1, Generic2> extends SuperClass {
     protected int field1;
     /* Member was pulled from descendant class by    Ctrl + T -> Pull Members Up  */
     AnotherClass anotherClass;

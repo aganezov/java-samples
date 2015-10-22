@@ -6,7 +6,10 @@ package RefactoreSamples;
  */
 
 /* Class created via    Ctrl + T -> Push Members Down... in BaseClass*/
-public class BaseClassSubclass extends BaseClass {
+/* Class extension signature has been changed (generified) by     Ctrl + T -> Change Signature (in BaseClass)
+*           default values of Strings has been specified during generification
+* */
+public class BaseClassSubclass extends BaseClass<String, String> {
 
     /* New constant created by     Ctrl + T -> Extract constant (greet method) */
     public static final String MY_NAME = "My name";
