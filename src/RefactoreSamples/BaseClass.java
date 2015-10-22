@@ -20,8 +20,9 @@ public class BaseClass extends ExtractedSuperClass {
         System.out.println(randomIntValue);
     }
     /* Generate by Ctrl + T -> Encapsulate Fields */
-    public int getField1() {
-        return field1;
+    public FieldHolder getField1() {
+        /* Wrapped method return value    by Ctrl + T ->  Wrap Method Return Value */
+        return new FieldHolder(field1);
     }
 
     /* Generate by Ctrl + T -> Encapsulate Fields */
@@ -37,5 +38,18 @@ public class BaseClass extends ExtractedSuperClass {
     /* Generate by Ctrl + T -> Encapsulate Fields */
     public void setField2(int field2) {
         this.field2 = field2;
+    }
+
+    /* Wrapper for getField1 method return value created   by Ctrl + T ->  Wrap Method Return Value */
+    public class FieldHolder {
+        private final int value;
+
+        public FieldHolder(int value) {
+            this.value = value;
+        }
+
+        public int getValue() {
+            return value;
+        }
     }
 }
