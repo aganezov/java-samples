@@ -1,4 +1,4 @@
-package RefactoreSamples;
+package gwu.jetbrains.refactoring;
 
 /**
  * Created by aganezov on 10/22/15.

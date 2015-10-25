@@ -1,4 +1,4 @@
-package GenerateSamples;
+package gwu.jetbrains.generating;
 
 /**
  * Created by aganezov on 10/17/15.

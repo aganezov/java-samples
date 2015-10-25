@@ -1,6 +1,4 @@
-package RefactoreSamples;
-
-import java.awt.*;
+package gwu.jetbrains.refactoring;
 
 /**
  * Created by aganezov on 10/21/15.
