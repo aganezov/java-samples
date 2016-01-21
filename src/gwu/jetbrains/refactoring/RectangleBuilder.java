@@ -2,10 +2,7 @@ package gwu.jetbrains.refactoring;
 
 import java.awt.*;
 
-/* Comment is changed (Rectangle -> newlyNamedRectangle) by    Ctrl + T -> Rename (in Rectangle class)  */
-/* Builder pattern implementation for newlyNamedRectangle class created by invoking (in newlyNamedRectangle Class)
-*               Ctrl + T -> Replace with Builder
-* */
+
 public class RectangleBuilder {
     private int x = 0;
     private int y = 0;
